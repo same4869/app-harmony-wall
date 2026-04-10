@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的鸿蒙应用</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f5f5f5;
+      font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+      min-height: 100vh;
+      padding: 28px 16px 56px;
+    }
+
+    .page {
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .card-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      object-fit: cover;
+      flex-shrink: 0;
+      background: #f0f0f0;
+    }
+
+    .card-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .card-name {
+      font-size: 17px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 7px;
+    }
+
+    .tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .tag {
+      font-size: 12px;
+      color: #555555;
+      background: #ebebeb;
+      border-radius: 20px;
+      padding: 2px 10px;
+    }
+
+    .card-desc {
+      font-size: 14px;
+      color: #666666;
+      line-height: 1.55;
+    }
+
+    .card-footer {
+      margin-top: 14px;
+      text-align: right;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #1a1a1a;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 9px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn:active {
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>我的鸿蒙应用</h1>
+    <div id="app-list"></div>
+  </div>
+
+  <script>
+    fetch('apps.json')
+      .then(function(r) { return r.json(); })
+      .then(function(apps) {
+        var list = document.getElementById('app-list');
+        list.innerHTML = apps.map(function(app) {
+          var tagsHtml = app.tags.map(function(t) {
+            return '<span class="tag">' + t + '</span>';
+          }).join('');
+
+          var url = 'https://appgallery.huawei.com/app/detail?id=' + app.bundleName;
+
+          return '<div class="card">'
+            + '<div class="card-top">'
+            + '<img class="card-icon" src="' + app.icon + '" alt="' + app.name + '">'
+            + '<div class="card-info">'
+            + '<div class="card-name">' + app.name + '</div>'
+            + '<div class="tags">' + tagsHtml + '</div>'
+            + '<div class="card-desc">' + app.description + '</div>'
+            + '</div>'
+            + '</div>'
+            + '<div class="card-footer">'
+            + '<a class="btn" href="' + url + '" target="_blank" rel="noopener">在应用市场查看</a>'
+            + '</div>'
+            + '</div>';
+        }).join('');
+      });
+  </script>
+</body>
+</html>
