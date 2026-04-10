@@ -40,5 +40,12 @@
     "description": "集中管理订阅与周期付费，清晰追踪续费时间与费用",
     "tags": ["工具", "理财"],
     "icon": "icons/subkiller.png"
+  },
+  {
+    "name": "元气手账",
+    "bundleName": "com.xun.batterylog",
+    "description": "量化每天的精力变化，记录什么在消耗你、什么在滋养你，完全本地不登录",
+    "tags": ["精力", "日记"],
+    "icon": "icons/batterylog.png"
   }
 ]
