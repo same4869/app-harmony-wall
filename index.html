@@ -119,28 +119,61 @@
       .then(function(r) { return r.json(); })
       .then(function(apps) {
         var list = document.getElementById('app-list');
-        list.innerHTML = apps.map(function(app) {
-          var tagsHtml = app.tags.map(function(t) {
-            return '<span class="tag">' + t + '</span>';
-          }).join('');
+        apps.forEach(function(app) {
+          var card = document.createElement('div');
+          card.className = 'card';
 
-          var url = 'https://appgallery.huawei.com/app/detail?id=' + app.bundleName;
+          var cardTop = document.createElement('div');
+          cardTop.className = 'card-top';
 
-          return '<div class="card">'
-            + '<div class="card-top">'
-            + '<img class="card-icon" src="' + app.icon + '" alt="' + app.name + '">'
-            + '<div class="card-info">'
-            + '<div class="card-name">' + app.name + '</div>'
-            + '<div class="tags">' + tagsHtml + '</div>'
-            + '<div class="card-desc">' + app.description + '</div>'
-            + '</div>'
-            + '</div>'
-            + '<div class="card-footer">'
-            + '<a class="btn" href="' + url + '" target="_blank" rel="noopener">在应用市场查看</a>'
-            + '</div>'
-            + '</div>';
-        }).join('');
-      });
+          var img = document.createElement('img');
+          img.className = 'card-icon';
+          img.src = app.icon;
+          img.alt = app.name;
+
+          var info = document.createElement('div');
+          info.className = 'card-info';
+
+          var name = document.createElement('div');
+          name.className = 'card-name';
+          name.textContent = app.name;
+
+          var tags = document.createElement('div');
+          tags.className = 'tags';
+          app.tags.forEach(function(t) {
+            var span = document.createElement('span');
+            span.className = 'tag';
+            span.textContent = t;
+            tags.appendChild(span);
+          });
+
+          var desc = document.createElement('div');
+          desc.className = 'card-desc';
+          desc.textContent = app.description;
+
+          info.appendChild(name);
+          info.appendChild(tags);
+          info.appendChild(desc);
+          cardTop.appendChild(img);
+          cardTop.appendChild(info);
+
+          var footer = document.createElement('div');
+          footer.className = 'card-footer';
+
+          var btn = document.createElement('a');
+          btn.className = 'btn';
+          btn.href = 'https://appgallery.huawei.com/app/detail?id=' + app.bundleName;
+          btn.target = '_blank';
+          btn.rel = 'noopener';
+          btn.textContent = '在应用市场查看';
+
+          footer.appendChild(btn);
+          card.appendChild(cardTop);
+          card.appendChild(footer);
+          list.appendChild(card);
+        });
+      })
+      .catch(function(e) { console.error('Failed to load apps.json:', e); });
   </script>
 </body>
 </html>
