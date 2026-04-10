@@ -1,0 +1,44 @@
+[
+  {
+    "name": "密语匣子",
+    "bundleName": "com.xun.xxsecret",
+    "description": "离线加密工具，把文字变成只有你知道的神秘密语",
+    "tags": ["工具", "隐私"],
+    "icon": "icons/xxsecret.png"
+  },
+  {
+    "name": "决定今天吃什么",
+    "bundleName": "com.xun.eatwhat2",
+    "description": "随机、转盘、多人投票，终结选餐纠结",
+    "tags": ["生活", "决策"],
+    "icon": "icons/eatwhat.png"
+  },
+  {
+    "name": "聚沙攒钱",
+    "bundleName": "com.xun.sandbank",
+    "description": "把愿望拆成小计划，本地记录存钱进度与节奏",
+    "tags": ["理财", "习惯"],
+    "icon": "icons/sandbank.png"
+  },
+  {
+    "name": "呼吸视界",
+    "bundleName": "com.xun.breathing",
+    "description": "多种训练模式搭配沉浸视觉，随时放松减压",
+    "tags": ["健康", "放松"],
+    "icon": "icons/breathing.png"
+  },
+  {
+    "name": "像素征途",
+    "bundleName": "com.xun.pixelgo",
+    "description": "以真实定位驱动，把日常出行沉淀为可视化城市记录",
+    "tags": ["探索", "记录"],
+    "icon": "icons/pixelgo.png"
+  },
+  {
+    "name": "订阅斩",
+    "bundleName": "com.xun.subkiller",
+    "description": "集中管理订阅与周期付费，清晰追踪续费时间与费用",
+    "tags": ["工具", "理财"],
+    "icon": "icons/subkiller.png"
+  }
+]
