@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/xwang/Documents/git_work_wx/app-harmony-wall log --oneline -10)",
+      "Bash(xargs cat:*)",
+      "Bash(git config:*)",
+      "Bash(git -C /Users/xwang/Documents/git_work_wx/app-harmony-wall log --format=\"%H %s\" HEAD)",
+      "Bash([ -f \"$SOURCE_BG\" ])",
+      "Bash(md5 /Users/xwang/Documents/git_work_wx/app-003-breathing/breathing-Harmony/AppScope/resources/base/media/background.png)",
+      "Bash([ -f \"$SOURCE_FG\" ])",
+      "Bash(md5 /Users/xwang/Documents/git_work_wx/app-003-breathing/breathing-Harmony/AppScope/resources/base/media/foreground.png)",
+      "Bash(md5 /Users/xwang/Documents/git_work_wx/app-harmony-wall/icons/breathing.png)",
+      "Bash(echo \"Server started, PID: $!\")",
+      "Bash(pkill -f \"python3 -m http.server 8080\")",
+      "Bash(git push:*)",
+      "Bash(xargs ls:*)",
+      "Bash(sort -k5 -h)"
+    ]
+  }
+}
