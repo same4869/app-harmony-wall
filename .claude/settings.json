@@ -14,7 +14,12 @@
       "Bash(pkill -f \"python3 -m http.server 8080\")",
       "Bash(git push:*)",
       "Bash(xargs ls:*)",
-      "Bash(sort -k5 -h)"
+      "Bash(sort -k5 -h)",
+      "Bash(./hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)",
+      "Read(//Applications/**)",
+      "Bash(/Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)",
+      "Bash(git pull:*)",
+      "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)"
     ]
   }
 }
