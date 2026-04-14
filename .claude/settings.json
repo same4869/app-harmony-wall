@@ -19,7 +19,12 @@
       "Read(//Applications/**)",
       "Bash(/Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)",
       "Bash(git pull:*)",
-      "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)"
+      "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)",
+      "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon)",
+      "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon --stacktrace)",
+      "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)",
+      "Bash(./hvigorw assembleHap --mode module -p product=default)",
+      "Bash(find /Users/xwang/Documents/git_work_wx/app-0* -name \"hvigorw\" -maxdepth 4)"
     ]
   }
 }
