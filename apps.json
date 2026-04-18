@@ -47,5 +47,19 @@
     "description": "量化每天的精力变化，记录什么在消耗你、什么在滋养你，完全本地不登录",
     "tags": ["精力", "日记"],
     "icon": "icons/batterylog.png"
+  },
+  {
+    "name": "NMTI人格测试",
+    "bundleName": "com.xun.nmti",
+    "description": "16种职场人格类型，测出你的隐藏属性，还能和朋友灵魂碰撞",
+    "tags": ["测试", "社交"],
+    "icon": "icons/nmti.png"
+  },
+  {
+    "name": "声波护照",
+    "bundleName": "com.xun.sonicpassport",
+    "description": "用一段声音记录此刻，声纹可视化，留存每个值得被记住的瞬间",
+    "tags": ["音频", "记录"],
+    "icon": "icons/sonicpassport.png"
   }
 ]
