@@ -61,5 +61,12 @@
     "description": "用一段声音记录此刻，声纹可视化，留存每个值得被记住的瞬间",
     "tags": ["音频", "记录"],
     "icon": "icons/sonicpassport.png"
+  },
+  {
+    "name": "效期管家",
+    "bundleName": "com.xun.expirytracker",
+    "description": "纯本地效期管理工具，智能追踪证件、保修、订阅等到期时间",
+    "tags": ["工具", "提醒"],
+    "icon": "icons/expirytracker.png"
   }
 ]

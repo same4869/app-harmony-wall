@@ -24,7 +24,11 @@
       "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon --stacktrace)",
       "Bash(DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk /Applications/DevEco-Studio.app/Contents/tools/hvigorw assembleHap --mode module -p product=default -p buildMode=release --no-daemon)",
       "Bash(./hvigorw assembleHap --mode module -p product=default)",
-      "Bash(find /Users/xwang/Documents/git_work_wx/app-0* -name \"hvigorw\" -maxdepth 4)"
+      "Bash(find /Users/xwang/Documents/git_work_wx/app-0* -name \"hvigorw\" -maxdepth 4)",
+      "WebSearch",
+      "WebFetch(domain:developer.huawei.com)",
+      "Bash(sips -z 256 256 /Users/xwang/Documents/git_work_wx/app-harmony-wall/icons/nmti.png)",
+      "Bash(sips -z 256 256 /Users/xwang/Documents/git_work_wx/app-harmony-wall/icons/sonicpassport.png)"
     ]
   }
 }
