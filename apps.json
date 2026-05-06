@@ -100,8 +100,8 @@
   {
     "name": "时间账本",
     "bundleName": "com.xun.timebudget",
-    "description": "给时间记账，看清每天的精力都花在了哪里",
-    "tags": ["效率", "记录"],
+    "description": "像管钱一样管时间，智能洞察使用习惯，用游戏化积分驱动自律成长",
+    "tags": ["效率", "自律"],
     "icon": "icons/timebudget.png"
   },
   {
