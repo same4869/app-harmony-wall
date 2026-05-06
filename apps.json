@@ -75,5 +75,54 @@
     "description": "实时监控电池温度与充电状态，本地记录设备健康趋势",
     "tags": ["工具", "硬件"],
     "icon": "icons/corepulse.png"
+  },
+  {
+    "name": "健康手帐",
+    "bundleName": "com.xun.healthlog",
+    "description": "轻量本地健康记录，追踪体重、血压、睡眠等日常指标",
+    "tags": ["健康", "记录"],
+    "icon": "icons/healthlog.png"
+  },
+  {
+    "name": "观辰",
+    "bundleName": "com.xun.guanchen",
+    "description": "极简日历与时间感知工具，让每一天都有仪式感",
+    "tags": ["工具", "日历"],
+    "icon": "icons/guanchen.png"
+  },
+  {
+    "name": "咖啡电量",
+    "bundleName": "com.xun.coffee",
+    "description": "追踪每日咖啡因摄入，可视化代谢曲线与最佳饮用时机",
+    "tags": ["健康", "饮食"],
+    "icon": "icons/coffee.png"
+  },
+  {
+    "name": "时间账本",
+    "bundleName": "com.xun.timebudget",
+    "description": "给时间记账，看清每天的精力都花在了哪里",
+    "tags": ["效率", "记录"],
+    "icon": "icons/timebudget.png"
+  },
+  {
+    "name": "FIRE自由倒计时",
+    "bundleName": "com.xun.fire",
+    "description": "设定财务自由目标，追踪储蓄进度与预计达成时间",
+    "tags": ["理财", "目标"],
+    "icon": "icons/fire.png"
+  },
+  {
+    "name": "城市适配度",
+    "bundleName": "com.xun.cityfit",
+    "description": "多维度评估你和一座城市的契合程度，找到最适合你的城市",
+    "tags": ["生活", "测试"],
+    "icon": "icons/cityfit.png"
+  },
+  {
+    "name": "六迹",
+    "bundleName": "com.xun.sixechos",
+    "description": "六个维度记录生活痕迹，用数据拼出你的日常全貌",
+    "tags": ["记录", "习惯"],
+    "icon": "icons/sixechoes.png"
   }
 ]
