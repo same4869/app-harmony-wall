@@ -114,8 +114,8 @@
   {
     "name": "城市适配度",
     "bundleName": "com.xun.cityfit",
-    "description": "多维度评估你和一座城市的契合程度，找到最适合你的城市",
-    "tags": ["生活", "测试"],
+    "description": "50城硬核数据沙盘，15维偏好匹配+实时调参+生存推演，纯本地帮你决定去哪发展",
+    "tags": ["决策", "城市"],
     "icon": "icons/cityfit.png"
   },
   {
