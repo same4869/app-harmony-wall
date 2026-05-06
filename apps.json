@@ -124,5 +124,12 @@
     "description": "六个维度记录生活痕迹，用数据拼出你的日常全貌",
     "tags": ["记录", "习惯"],
     "icon": "icons/sixechoes.png"
+  },
+  {
+    "name": "秒薪",
+    "bundleName": "com.xun.secwage",
+    "description": "把月薪转化为每秒跳动的实时现金流，量化消费的时间代价",
+    "tags": ["理财", "效率"],
+    "icon": "icons/secwage.png"
   }
 ]
