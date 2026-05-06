@@ -68,5 +68,12 @@
     "description": "纯本地效期管理工具，智能追踪证件、保修、订阅等到期时间",
     "tags": ["工具", "提醒"],
     "icon": "icons/expirytracker.png"
+  },
+  {
+    "name": "芯电图",
+    "bundleName": "com.xun.corepulse",
+    "description": "实时监控电池温度与充电状态，本地记录设备健康趋势",
+    "tags": ["工具", "硬件"],
+    "icon": "icons/corepulse.png"
   }
 ]
