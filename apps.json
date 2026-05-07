@@ -93,8 +93,8 @@
   {
     "name": "咖啡电量",
     "bundleName": "com.xun.coffee",
-    "description": "追踪每日咖啡因摄入，可视化代谢曲线与最佳饮用时机",
-    "tags": ["健康", "饮食"],
+    "description": "基于药代动力学实时追踪咖啡因浓度，可视化代谢曲线，智能预测入睡时间与心流窗口",
+    "tags": ["健康", "效率"],
     "icon": "icons/coffee.png"
   },
   {
