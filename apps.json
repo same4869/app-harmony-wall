@@ -131,5 +131,12 @@
     "description": "把月薪转化为每秒跳动的实时现金流，量化消费的时间代价",
     "tags": ["理财", "效率"],
     "icon": "icons/secwage.png"
+  },
+  {
+    "name": "卷王模拟器",
+    "bundleName": "com.xun.hustlesim",
+    "description": "娱乐化氛围工具箱，一键生成极客终端、学霸打卡、健身数据等沉浸式假装画面",
+    "tags": ["娱乐", "氛围"],
+    "icon": "icons/hustlesim.png"
   }
 ]
