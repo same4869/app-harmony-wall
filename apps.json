@@ -121,8 +121,8 @@
   {
     "name": "六迹",
     "bundleName": "com.xun.sixechos",
-    "description": "六个维度记录生活痕迹，用数据拼出你的日常全貌",
-    "tags": ["记录", "习惯"],
+    "description": "每天恰好六个词记录生活，极简暗黑日记，约束即自由的赛博禅意",
+    "tags": ["日记", "极简"],
     "icon": "icons/sixechoes.png"
   },
   {
