@@ -145,5 +145,12 @@
     "description": "私人决策管理系统，记录重大决定、定期复盘、沉淀人生原则，用数据量化你的决策质量",
     "tags": ["决策", "复盘"],
     "icon": "icons/ledger.png"
+  },
+  {
+    "name": "梦境研究所",
+    "bundleName": "com.xun.echo",
+    "description": "记录梦境碎片，发现潜意识模式，用荣格心理学解读你的内在世界",
+    "tags": ["心理", "日记"],
+    "icon": "icons/echo.png"
   }
 ]
