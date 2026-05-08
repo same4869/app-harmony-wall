@@ -152,5 +152,12 @@
     "description": "记录梦境碎片，发现潜意识模式，用荣格心理学解读你的内在世界",
     "tags": ["心理", "日记"],
     "icon": "icons/echo.png"
+  },
+  {
+    "name": "状态气象局",
+    "bundleName": "com.xun.vibecast",
+    "description": "用气象隐喻观测内在状态，纯本地的情绪天气站",
+    "tags": ["心理", "记录"],
+    "icon": "icons/vibecast.png"
   }
 ]
