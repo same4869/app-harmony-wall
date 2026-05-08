@@ -138,5 +138,12 @@
     "description": "娱乐化氛围工具箱，一键生成极客终端、学霸打卡、健身数据等沉浸式假装画面",
     "tags": ["娱乐", "氛围"],
     "icon": "icons/hustlesim.png"
+  },
+  {
+    "name": "决定账本",
+    "bundleName": "com.xun.ledger",
+    "description": "私人决策管理系统，记录重大决定、定期复盘、沉淀人生原则，用数据量化你的决策质量",
+    "tags": ["决策", "复盘"],
+    "icon": "icons/ledger.png"
   }
 ]
