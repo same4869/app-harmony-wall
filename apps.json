@@ -166,5 +166,12 @@
     "description": "把大脑视为AI超级大模型，用算力隐喻管理精力，游戏化升级体系让成长可见",
     "tags": ["效率", "游戏化"],
     "icon": "icons/selftune.png"
+  },
+  {
+    "name": "能量微城",
+    "bundleName": "com.xun.microcity",
+    "description": "每日注入心流驱动虚拟城市生长，50城共鸣收集，纯本地数据盆景",
+    "tags": ["心流", "可视化"],
+    "icon": "icons/microcity.png"
   }
 ]
