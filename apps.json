@@ -159,5 +159,12 @@
     "description": "用气象隐喻观测内在状态，纯本地的情绪天气站",
     "tags": ["心理", "记录"],
     "icon": "icons/vibecast.png"
+  },
+  {
+    "name": "状态微调",
+    "bundleName": "com.xun.selftune",
+    "description": "把大脑视为AI超级大模型，用算力隐喻管理精力，游戏化升级体系让成长可见",
+    "tags": ["效率", "游戏化"],
+    "icon": "icons/selftune.png"
   }
 ]
