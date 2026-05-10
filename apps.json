@@ -187,5 +187,19 @@
     "description": "用数据大屏视角纵览华夏五千年兴衰，完成日常习惯积攒算力推演解锁历史纪元，收集帝王本纪与文明遗珠",
     "tags": ["历史", "自律"],
     "icon": "icons/empire.png"
+  },
+  {
+    "name": "文明沙漏",
+    "bundleName": "com.xun.civglass",
+    "description": "番茄钟专注驱动文明科技树解锁，每次静心积攒启迪值点亮华夏五千年脉络，收集历史图鉴与古籍名言",
+    "tags": ["效率", "历史"],
+    "icon": "icons/civglass.png"
+  },
+  {
+    "name": "密龄",
+    "bundleName": "com.xun.passage",
+    "description": "纯本地密码保质期管理，零网络硬件加密，用保鲜思维守护数字资产安全",
+    "tags": ["安全", "隐私"],
+    "icon": "icons/passage.png"
   }
 ]
