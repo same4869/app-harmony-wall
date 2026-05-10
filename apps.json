@@ -180,5 +180,12 @@
     "description": "纯本地物理引擎思维策展工具，将碎片灵感降维为节点，通过引力连线构建可视化思维网络",
     "tags": ["思维", "可视化"],
     "icon": "icons/insightgraph.png"
+  },
+  {
+    "name": "帝国仪表盘",
+    "bundleName": "com.xun.empire",
+    "description": "用数据大屏视角纵览华夏五千年兴衰，完成日常习惯积攒算力推演解锁历史纪元，收集帝王本纪与文明遗珠",
+    "tags": ["历史", "自律"],
+    "icon": "icons/empire.png"
   }
 ]
