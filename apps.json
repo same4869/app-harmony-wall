@@ -215,5 +215,12 @@
     "description": "纯本地拖延观察工具，记录推迟情绪、分析行为模式、用觉察代替内耗",
     "tags": ["心理", "效率"],
     "icon": "icons/laterbox.png"
+  },
+  {
+    "name": "关系星轨",
+    "bundleName": "com.xun.orbit",
+    "description": "纯本地人际能量管理工具，用温度量化关系亲密度，半衰期算法追踪衰减，星轨可视化社交网络",
+    "tags": ["社交", "心理"],
+    "icon": "icons/orbit.png"
   }
 ]
