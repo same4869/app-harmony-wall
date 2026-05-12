@@ -229,5 +229,12 @@
     "description": "纯本地冲动消费复盘工具，记录每笔冲动购物，冷静期后评估后悔度与残值，用数据揭示败家诱因和消费人格",
     "tags": ["理财", "复盘"],
     "icon": "icons/regretlab.png"
+  },
+  {
+    "name": "地铁通勤账本",
+    "bundleName": "com.xun.commute",
+    "description": "用金融记账思维量化通勤时间，段位竞技+每日挑战+资产热力图，把地下时光变成可见财富",
+    "tags": ["效率", "通勤"],
+    "icon": "icons/commute.png"
   }
 ]
