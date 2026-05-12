@@ -222,5 +222,12 @@
     "description": "纯本地人际能量管理工具，用温度量化关系亲密度，半衰期算法追踪衰减，星轨可视化社交网络",
     "tags": ["社交", "心理"],
     "icon": "icons/orbit.png"
+  },
+  {
+    "name": "网购后悔研究所",
+    "bundleName": "com.xun.regretlab",
+    "description": "纯本地冲动消费复盘工具，记录每笔冲动购物，冷静期后评估后悔度与残值，用数据揭示败家诱因和消费人格",
+    "tags": ["理财", "复盘"],
+    "icon": "icons/regretlab.png"
   }
 ]
