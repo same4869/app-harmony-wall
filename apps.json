@@ -236,5 +236,12 @@
     "description": "用金融记账思维量化通勤时间，段位竞技+每日挑战+资产热力图，把地下时光变成可见财富",
     "tags": ["效率", "通勤"],
     "icon": "icons/commute.png"
+  },
+  {
+    "name": "通勤时间",
+    "bundleName": "com.xun.commutetime",
+    "description": "纯本地通勤效率量化工具，极简记录+专业可视化，将每日被动消耗的通勤转化为可度量的时间资产",
+    "tags": ["效率", "量化"],
+    "icon": "icons/commutetime.png"
   }
 ]
