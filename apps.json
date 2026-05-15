@@ -3,245 +3,370 @@
     "name": "密语匣子",
     "bundleName": "com.xun.xxsecret",
     "description": "离线加密工具，把文字变成只有你知道的神秘密语",
-    "tags": ["工具", "隐私"],
+    "tags": [
+      "工具",
+      "隐私"
+    ],
     "icon": "icons/xxsecret.png"
   },
   {
     "name": "决定今天吃什么",
     "bundleName": "com.xun.eatwhat2",
     "description": "随机、转盘、多人投票，终结选餐纠结",
-    "tags": ["生活", "决策"],
+    "tags": [
+      "生活",
+      "决策"
+    ],
     "icon": "icons/eatwhat.png"
   },
   {
     "name": "聚沙攒钱",
     "bundleName": "com.xun.sandbank",
     "description": "把愿望拆成小计划，本地记录存钱进度与节奏",
-    "tags": ["理财", "习惯"],
+    "tags": [
+      "理财",
+      "习惯"
+    ],
     "icon": "icons/sandbank.png"
   },
   {
     "name": "呼吸视界",
     "bundleName": "com.xun.breathing",
     "description": "多种训练模式搭配沉浸视觉，随时放松减压",
-    "tags": ["健康", "放松"],
+    "tags": [
+      "健康",
+      "放松"
+    ],
     "icon": "icons/breathing.png"
   },
   {
     "name": "像素征途",
     "bundleName": "com.xun.pixelgo",
     "description": "以真实定位驱动，把日常出行沉淀为可视化城市记录",
-    "tags": ["探索", "记录"],
+    "tags": [
+      "探索",
+      "记录"
+    ],
     "icon": "icons/pixelgo.png"
   },
   {
     "name": "订阅斩",
     "bundleName": "com.xun.subkiller",
     "description": "集中管理订阅与周期付费，清晰追踪续费时间与费用",
-    "tags": ["工具", "理财"],
+    "tags": [
+      "工具",
+      "理财"
+    ],
     "icon": "icons/subkiller.png"
   },
   {
     "name": "元气手账",
     "bundleName": "com.xun.batterylog",
     "description": "量化每天的精力变化，记录什么在消耗你、什么在滋养你，完全本地不登录",
-    "tags": ["精力", "日记"],
+    "tags": [
+      "精力",
+      "日记"
+    ],
     "icon": "icons/batterylog.png"
   },
   {
     "name": "NMTI人格测试",
     "bundleName": "com.xun.nmti",
     "description": "16种职场人格类型，测出你的隐藏属性，还能和朋友灵魂碰撞",
-    "tags": ["测试", "社交"],
+    "tags": [
+      "测试",
+      "社交"
+    ],
     "icon": "icons/nmti.png"
   },
   {
     "name": "声波护照",
     "bundleName": "com.xun.sonicpassport",
     "description": "用一段声音记录此刻，声纹可视化，留存每个值得被记住的瞬间",
-    "tags": ["音频", "记录"],
+    "tags": [
+      "音频",
+      "记录"
+    ],
     "icon": "icons/sonicpassport.png"
   },
   {
     "name": "效期管家",
     "bundleName": "com.xun.expirytracker",
     "description": "纯本地效期管理工具，智能追踪证件、保修、订阅等到期时间",
-    "tags": ["工具", "提醒"],
+    "tags": [
+      "工具",
+      "提醒"
+    ],
     "icon": "icons/expirytracker.png"
   },
   {
     "name": "芯电图",
     "bundleName": "com.xun.corepulse",
     "description": "实时监控电池温度与充电状态，本地记录设备健康趋势",
-    "tags": ["工具", "硬件"],
+    "tags": [
+      "工具",
+      "硬件"
+    ],
     "icon": "icons/corepulse.png"
   },
   {
     "name": "健康手帐",
     "bundleName": "com.xun.healthlog",
     "description": "轻量本地健康记录，追踪体重、血压、睡眠等日常指标",
-    "tags": ["健康", "记录"],
+    "tags": [
+      "健康",
+      "记录"
+    ],
     "icon": "icons/healthlog.png"
   },
   {
     "name": "观辰",
     "bundleName": "com.xun.guanchen",
     "description": "极简日历与时间感知工具，让每一天都有仪式感",
-    "tags": ["工具", "日历"],
+    "tags": [
+      "工具",
+      "日历"
+    ],
     "icon": "icons/guanchen.png"
   },
   {
     "name": "咖啡电量",
     "bundleName": "com.xun.coffee",
     "description": "基于药代动力学实时追踪咖啡因浓度，可视化代谢曲线，智能预测入睡时间与心流窗口",
-    "tags": ["健康", "效率"],
+    "tags": [
+      "健康",
+      "效率"
+    ],
     "icon": "icons/coffee.png"
   },
   {
     "name": "时间账本",
     "bundleName": "com.xun.timebudget",
     "description": "像管钱一样管时间，智能洞察使用习惯，用游戏化积分驱动自律成长",
-    "tags": ["效率", "自律"],
+    "tags": [
+      "效率",
+      "自律"
+    ],
     "icon": "icons/timebudget.png"
   },
   {
     "name": "FIRE自由倒计时",
     "bundleName": "com.xun.fire",
     "description": "设定财务自由目标，追踪储蓄进度与预计达成时间",
-    "tags": ["理财", "目标"],
+    "tags": [
+      "理财",
+      "目标"
+    ],
     "icon": "icons/fire.png"
   },
   {
     "name": "城市适配度",
     "bundleName": "com.xun.cityfit",
     "description": "50城硬核数据沙盘，15维偏好匹配+实时调参+生存推演，纯本地帮你决定去哪发展",
-    "tags": ["决策", "城市"],
+    "tags": [
+      "决策",
+      "城市"
+    ],
     "icon": "icons/cityfit.png"
   },
   {
     "name": "六迹",
     "bundleName": "com.xun.sixechos",
     "description": "每天恰好六个词记录生活，极简暗黑日记，约束即自由的赛博禅意",
-    "tags": ["日记", "极简"],
+    "tags": [
+      "日记",
+      "极简"
+    ],
     "icon": "icons/sixechoes.png"
   },
   {
     "name": "秒薪",
     "bundleName": "com.xun.secwage",
     "description": "把月薪转化为每秒跳动的实时现金流，量化消费的时间代价",
-    "tags": ["理财", "效率"],
+    "tags": [
+      "理财",
+      "效率"
+    ],
     "icon": "icons/secwage.png"
   },
   {
     "name": "卷王模拟器",
     "bundleName": "com.xun.hustlesim",
     "description": "娱乐化氛围工具箱，一键生成极客终端、学霸打卡、健身数据等沉浸式假装画面",
-    "tags": ["娱乐", "氛围"],
+    "tags": [
+      "娱乐",
+      "氛围"
+    ],
     "icon": "icons/hustlesim.png"
   },
   {
     "name": "决定账本",
     "bundleName": "com.xun.ledger",
     "description": "私人决策管理系统，记录重大决定、定期复盘、沉淀人生原则，用数据量化你的决策质量",
-    "tags": ["决策", "复盘"],
+    "tags": [
+      "决策",
+      "复盘"
+    ],
     "icon": "icons/ledger.png"
   },
   {
     "name": "梦境研究所",
     "bundleName": "com.xun.echo",
     "description": "记录梦境碎片，发现潜意识模式，用荣格心理学解读你的内在世界",
-    "tags": ["心理", "日记"],
+    "tags": [
+      "心理",
+      "日记"
+    ],
     "icon": "icons/echo.png"
   },
   {
     "name": "状态气象局",
     "bundleName": "com.xun.vibecast",
     "description": "用气象隐喻观测内在状态，纯本地的情绪天气站",
-    "tags": ["心理", "记录"],
+    "tags": [
+      "心理",
+      "记录"
+    ],
     "icon": "icons/vibecast.png"
   },
   {
     "name": "状态微调",
     "bundleName": "com.xun.selftune",
     "description": "把大脑视为AI超级大模型，用算力隐喻管理精力，游戏化升级体系让成长可见",
-    "tags": ["效率", "游戏化"],
+    "tags": [
+      "效率",
+      "游戏化"
+    ],
     "icon": "icons/selftune.png"
   },
   {
     "name": "能量微城",
     "bundleName": "com.xun.microcity",
     "description": "每日注入心流驱动虚拟城市生长，50城共鸣收集，纯本地数据盆景",
-    "tags": ["心流", "可视化"],
+    "tags": [
+      "心流",
+      "可视化"
+    ],
     "icon": "icons/microcity.png"
   },
   {
     "name": "灵感图谱",
     "bundleName": "com.xun.insightgraph",
     "description": "纯本地物理引擎思维策展工具，将碎片灵感降维为节点，通过引力连线构建可视化思维网络",
-    "tags": ["思维", "可视化"],
+    "tags": [
+      "思维",
+      "可视化"
+    ],
     "icon": "icons/insightgraph.png"
   },
   {
     "name": "帝国仪表盘",
     "bundleName": "com.xun.empire",
     "description": "用数据大屏视角纵览华夏五千年兴衰，完成日常习惯积攒算力推演解锁历史纪元，收集帝王本纪与文明遗珠",
-    "tags": ["历史", "自律"],
+    "tags": [
+      "历史",
+      "自律"
+    ],
     "icon": "icons/empire.png"
   },
   {
     "name": "文明沙漏",
     "bundleName": "com.xun.civglass",
     "description": "番茄钟专注驱动文明科技树解锁，每次静心积攒启迪值点亮华夏五千年脉络，收集历史图鉴与古籍名言",
-    "tags": ["效率", "历史"],
+    "tags": [
+      "效率",
+      "历史"
+    ],
     "icon": "icons/civglass.png"
   },
   {
     "name": "密龄",
     "bundleName": "com.xun.passage",
     "description": "纯本地密码保质期管理，零网络硬件加密，用保鲜思维守护数字资产安全",
-    "tags": ["安全", "隐私"],
+    "tags": [
+      "安全",
+      "隐私"
+    ],
     "icon": "icons/passage.png"
   },
   {
     "name": "逆打卡",
     "bundleName": "com.xun.untrack",
     "description": "反共识习惯管理工具，客观归因每次断裂，用金缮降级重塑出更强韧的自己",
-    "tags": ["习惯", "心理"],
+    "tags": [
+      "习惯",
+      "心理"
+    ],
     "icon": "icons/untrack.png"
   },
   {
     "name": "稍后处理",
     "bundleName": "com.xun.laterbox",
     "description": "纯本地拖延观察工具，记录推迟情绪、分析行为模式、用觉察代替内耗",
-    "tags": ["心理", "效率"],
+    "tags": [
+      "心理",
+      "效率"
+    ],
     "icon": "icons/laterbox.png"
   },
   {
     "name": "关系星轨",
     "bundleName": "com.xun.orbit",
     "description": "纯本地人际能量管理工具，用温度量化关系亲密度，半衰期算法追踪衰减，星轨可视化社交网络",
-    "tags": ["社交", "心理"],
+    "tags": [
+      "社交",
+      "心理"
+    ],
     "icon": "icons/orbit.png"
   },
   {
     "name": "网购后悔研究所",
     "bundleName": "com.xun.regretlab",
     "description": "纯本地冲动消费复盘工具，记录每笔冲动购物，冷静期后评估后悔度与残值，用数据揭示败家诱因和消费人格",
-    "tags": ["理财", "复盘"],
+    "tags": [
+      "理财",
+      "复盘"
+    ],
     "icon": "icons/regretlab.png"
   },
   {
     "name": "地铁通勤账本",
     "bundleName": "com.xun.commute",
     "description": "用金融记账思维量化通勤时间，段位竞技+每日挑战+资产热力图，把地下时光变成可见财富",
-    "tags": ["效率", "通勤"],
+    "tags": [
+      "效率",
+      "通勤"
+    ],
     "icon": "icons/commute.png"
   },
   {
     "name": "通勤时间",
     "bundleName": "com.xun.commutetime",
     "description": "纯本地通勤效率量化工具，极简记录+专业可视化，将每日被动消耗的通勤转化为可度量的时间资产",
-    "tags": ["效率", "量化"],
+    "tags": [
+      "效率",
+      "量化"
+    ],
     "icon": "icons/commutetime.png"
+  },
+  {
+    "name": "轴迹",
+    "bundleName": "com.xun.axisledger",
+    "description": "纯本地儿童眼轴发育追踪工具，量化增速趋势、对比干预策略效果，让近视防控有据可依",
+    "tags": [
+      "健康",
+      "儿童"
+    ],
+    "icon": "icons/axisledger.png"
+  },
+  {
+    "name": "出门别落下",
+    "bundleName": "com.xun.keepit",
+    "description": "纯本地出行资产管理工具，场景化物品打卡+健康值追踪+消耗品库存，游戏化整备指数养成",
+    "tags": [
+      "效率",
+      "习惯"
+    ],
+    "icon": "icons/keepit.png"
   }
 ]

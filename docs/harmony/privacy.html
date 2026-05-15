@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>轴迹 - 隐私政策</title>
+<style>
+  :root { --bg: #F8FAFC; --card: #FFFFFF; --text: #1E293B; --muted: #64748B; --border: #E2E8F0; --accent: #0F172A; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  .container { max-width: 680px; margin: 0 auto; padding: 40px 20px 80px; }
+  .header { text-align: center; margin-bottom: 40px; }
+  .header h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; }
+  .header .badge { display: inline-block; margin-top: 12px; padding: 4px 14px; border-radius: 20px; background: #F1F5F9; border: 1px solid var(--border); font-size: 13px; color: var(--muted); font-weight: 500; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
+  .card h2 { font-size: 17px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+  .card p, .card li { font-size: 14px; color: var(--muted); line-height: 1.8; }
+  .card ul { padding-left: 20px; margin-top: 8px; }
+  .card li { margin-bottom: 6px; }
+  .highlight { background: #ECFDF5; border: 1px solid #A7F3D0; border-radius: 12px; padding: 16px 20px; margin-top: 12px; }
+  .highlight p { color: #065F46; font-weight: 500; }
+  .footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); }
+  .footer p { font-size: 12px; color: #94A3B8; }
+  .footer a { color: var(--muted); text-decoration: none; }
+  @media (max-width: 480px) { .container { padding: 24px 16px 60px; } .card { padding: 18px; } .header h1 { font-size: 24px; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>轴迹 隐私政策</h1>
+    <div class="badge">🔒 纯本地 · 无网络 · 无服务器</div>
+  </div>
+
+  <div class="card">
+    <h2>📋 概述</h2>
+    <p>轴迹是一款儿童眼轴发育追踪工具，由个人开发者独立开发运营。我们深知儿童健康数据的敏感性，因此从产品设计之初就确立了<strong>"数据不出设备"</strong>的核心原则。</p>
+    <div class="highlight">
+      <p>本应用不收集、不存储、不传输任何用户数据至外部服务器。所有数据仅存在于您的设备本地。</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>💾 数据存储</h2>
+    <ul>
+      <li><strong>存储方式：</strong>所有数据通过 HarmonyOS 系统级关系型加密数据库（Security Level S1）和系统 Preferences 安全存储于设备本地</li>
+      <li><strong>存储内容：</strong>儿童姓名、出生日期、性别、身高、眼轴长度、等效球镜度数、角膜曲率、干预策略标注等测量记录</li>
+      <li><strong>存储位置：</strong>仅存储在应用沙箱内的本地数据库中，不会上传至任何云端或第三方服务器</li>
+      <li><strong>数据留存：</strong>数据随应用存在而保留，用户可随时通过应用内功能导出或删除数据；卸载应用后数据将被系统自动清除</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🚫 数据收集与共享</h2>
+    <ul>
+      <li>本应用<strong>不收集</strong>任何个人身份信息用于商业目的</li>
+      <li>本应用<strong>不使用</strong>任何第三方统计 SDK、广告 SDK 或数据分析服务</li>
+      <li>本应用<strong>不与</strong>任何第三方共享用户数据</li>
+      <li>本应用<strong>不要求</strong>网络权限，不具备联网能力</li>
+      <li>本应用<strong>不使用</strong>设备标识符（如 IMEI、OAID、MAC 地址等）</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>🔐 数据安全</h2>
+    <ul>
+      <li>采用 HarmonyOS 系统级加密存储（RDB Security Level S1），数据库文件受系统沙箱保护</li>
+      <li>应用运行在独立沙箱中，其他应用无法访问本应用的数据</li>
+      <li>不支持云同步功能，数据不会意外同步至云端</li>
+      <li>CSV 导出功能由用户主动触发，导出文件保存至用户指定位置，由用户自行管理</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>👶 未成年人保护</h2>
+    <p>本应用专为 3-18 岁儿童及青少年设计，数据由家长或监护人录入和管理。我们承诺：</p>
+    <ul>
+      <li>不收集未成年人的任何可识别身份信息用于商业目的</li>
+      <li>不向未成年人展示任何商业广告或营销内容</li>
+      <li>不提供任何社交功能，不存在信息泄露至他人的风险</li>
+      <li>数据解读结果仅供参考，不构成医疗诊断或治疗建议</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>📤 数据导出与删除</h2>
+    <ul>
+      <li><strong>导出：</strong>用户可随时通过「档案」页的导出功能将全部数据导出为 CSV 文件</li>
+      <li><strong>删除：</strong>用户可在应用内删除单条记录或重置全部数据</li>
+      <li><strong>卸载清除：</strong>卸载应用后，系统将自动清除所有本地数据</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>⚠️ 免责声明</h2>
+    <p>本应用仅提供数据记录与趋势分析功能，所有评估结果（包括眼轴年化增速评估、综合发育评估、AI 诊断建议等）均基于数据趋势的自动化计算，仅供参考，<strong>不构成任何医疗诊断或治疗建议</strong>。儿童的近视防控方案应由专业眼科医生根据全面检查结果制定。</p>
+  </div>
+
+  <div class="card">
+    <h2>🔄 政策更新</h2>
+    <p>本隐私政策可能会随应用功能迭代而更新。重大变更将在应用更新时通过弹窗或应用内通知告知用户。继续使用应用即表示您同意更新后的隐私政策。</p>
+    <p>本政策最后更新日期：<strong>2026年5月15日</strong></p>
+  </div>
+
+  <div class="card">
+    <h2>📬 联系我们</h2>
+    <p>如您对本隐私政策有任何疑问或建议，请通过以下方式联系：</p>
+    <ul>
+      <li>电子邮箱：<a href="mailto:119123059@qq.com">119123059@qq.com</a></li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>© 2026 轴迹 · 纯本地鸿蒙应用</p>
+    <p style="margin-top:4px"><a href="https://same4869.github.io/app-harmony-wall/">发现更多纯本地应用 →</a></p>
+  </div>
+
+</div>
+</body>
+</html>
